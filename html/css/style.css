@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: 80px;
   box-shadow: 2px 2px 8px #cfcdcd;
+  background-color: white;
 }
 .co-container>* {
   display: flex;
@@ -33,13 +34,131 @@ h1{
 .co-content{
   display: flex;
   border: 1px solid #cccccc;
+  flex-direction: column;
+}
+.co-content>*{
+  flex-direction: row;
 }
 .co-content-payblock{
   flex:3;
   padding:10px;
+ 
 }
 .co-content-cartblock{
+  display: flex;
   background-color: #cccccc;
   flex:2;
   padding:10px;
+}
+.co-content-wallet{
+  flex:3;
+  padding:10px;
+  padding-left: 10px;
+  color: gray;
+  font-weight: bold;
+  /* flex-direction: column; */
+}
+.co-content-newcard{
+  flex:2;
+  padding:20px;
+  color: gray;
+  font-weight: bold;
+  /* flex-direction: column; */
+}
+.body_background{
+  background-image: url("../images/background.jpg");
+}
+.co-content-img_cards{
+  width:150px;
+  /* flex-direction: row; */
+}
+.co-content-img_cards--active{
+  display: flex;
+  /* width:150px; */
+  border:1px #4CAF50;
+}
+.co-content-image {
+  display: flex;
+  width: 10%;
+  height:100px;
+  background-color: white;
+  flex-direction: row;
+  padding: 20px;
+  /* justify-content:space-evenly; */
+}
+.co-content-image-caption {
+  text-align: left;
+  font-size: smaller;
+}
+.co-content-left{
+  display: flex;
+}
+.input{
+    border-radius: 10px; 
+    width: 300px;
+    height: 35px;
+    font-weight: normal;
+    color: gray;
+    padding-left: 20px;
+    font-size: small; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    margin-bottom:10px;
+}
+.co-content-input{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin-bottom:10px; */
+}
+.co-content-2inputs{
+  display: flex;
+  width:322px;
+  justify-items: center;
+  justify-content: space-between;
+}
+.input2{
+  border-radius: 10px; 
+  height: 35px;
+  font-weight: normal;
+  color: gray;
+  padding-left: 20px;
+  font-size: small; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  margin-bottom:40px;
+}
+.input3{
+  border-radius: 10px; 
+  width: 300px;
+  height: 35px;
+  font-weight: normal;
+  color: gray;
+  padding-left: 20px;
+  margin-left: 10px;
+  font-size: small; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  margin-bottom:40px;
+}
+.submit_button{
+  background-color: #4CAF50;
+  color:white;
+  width: 327px;
+  height: 35px;
+  font-weight: normal;
+  font-size: small; 
+    border-width: 0px;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+.co-content-cart-img{
+  display: flex;
+  width: 10%;
+  background-color: white;
+  flex-direction: column;
+  padding: 20px;
 }
